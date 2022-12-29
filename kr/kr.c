@@ -127,7 +127,7 @@ int main(/*function arguments*/){
 	}		
 */
 
-printf("git not working\n");
+	printf("termux is my only hope.\n");
 	
 
 
