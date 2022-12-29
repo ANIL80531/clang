@@ -131,7 +131,7 @@ int main(/*function arguments*/){
 	printf("Learning clang and UNiX to build my simple OS\n");
 	
 	//Ex-1.7 print value of EOF
-	printf("%d",EOF);
+	printf("The value of EOF is: %d\n",EOF);
 	
 
 
