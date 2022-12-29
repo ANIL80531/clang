@@ -128,7 +128,7 @@ int main(/*function arguments*/){
 */
 
 	printf("termux is my only hope.\n");
-	
+	printf("Learn clang && UNiX to build my simple OS\n");
 
 
 
