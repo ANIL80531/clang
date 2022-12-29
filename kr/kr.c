@@ -80,7 +80,7 @@
 *	A text stream is a sequence of characters divided into lines; each line consist of zero or more characters followed by a newline character. 
 *	getchar() read the input characters from a text stream and returns that as its value.
 *	putchar() prints a character. 
-
+*	!= have higher precedence than =
 */
 
 
@@ -129,8 +129,10 @@ int main(/*function arguments*/){
 
 	printf("termux is my only hope.\n");
 	printf("Learning clang and UNiX to build my simple OS\n");
-
-
+	
+	//Ex-1.7 print value of EOF
+	printf("%d",EOF);
+	
 
 
 	
