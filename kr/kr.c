@@ -159,13 +159,11 @@ int main(/*function arguments*/){
 */
 	// 1.5.3 Line Counting
 	int lc = 0;
-	while (getchar() != 'n'){
-		if (getchar() == '\n'){
+	while (getchar() != 'n' && (getchar() == '\n')){
 			++lc;
 			printf("press n to stop !\n");
 		}
-	}
-	printf("Total New lines = %d\n",lc);
+	printf("Total New lines = %d\n", lc);
 
 
 
