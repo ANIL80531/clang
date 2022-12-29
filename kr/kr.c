@@ -164,8 +164,8 @@ int main(/*function arguments*/){
 			++lc;
 			printf("press n to stop !\n");
 		}
-	printf("Total New lines = %d\n",lc);
 	}
+	printf("Total New lines = %d\n",lc);
 
 
 
