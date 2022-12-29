@@ -137,11 +137,32 @@ int main(/*function arguments*/){
 	int cc = 0;
 	while (getchar() != '\n'){
 		++cc;
+/*
+		++cc means increment by one. is like cc = cc+1 
+		but ++cc is more concise and often more efficient.
+		--cc decrement by 1.
+		The operators ++ and -- can be either prefix operators (++cc)
+		or postfix (cc++);
+		
 
+
+
+
+*/
 	}
-	printf("You just typed %d characters!\n",cc);	
+	printf("You just typed %d characters including space!\n",cc);	
+/*	%ld for long integer
+	%f for both float and double
+	%.0f suppresses printing of the decimal point and the fraction part
+	which is zero.
 
-
+*/
+	// 1.5.3 Line Counting
+	int lc = 0;
+	while (getchar() =='\n'){
+		++lc;
+	printf("Total New lines = %d\n",lc);
+	}
 
 
 
