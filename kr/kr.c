@@ -127,7 +127,7 @@ int main(/*function arguments*/){
 	}		
 */
 
-
+printf("Testing git stash\n");
 	
 
 
