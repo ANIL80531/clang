@@ -132,10 +132,23 @@ int main(/*function arguments*/){
 	
 	//Ex-1.7 print value of EOF
 	printf("The value of EOF is: %d\n",EOF);
+	// 1.5.2 Character counting program
 	
+	int cc = 0;
+	while (getchar() != '\n'){
+		++cc;
+
+	}
+	printf("You just typed %d characters!\n",cc);	
 
 
-	
+
+
+
+
+
+
+
 }
 
 
