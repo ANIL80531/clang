@@ -186,7 +186,7 @@ int main(/*function arguments*/){
 		}
 		lc = bc;
 	}
-
+	printf("\n");
 }
 
 
