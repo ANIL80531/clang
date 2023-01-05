@@ -156,20 +156,22 @@ int main(/*function arguments*/){
 	%.0f suppresses printing of the decimal point and the fraction part
 	which is zero.
 
-*/
+
 	// 1.5.3 Line Counting
+
+
+	int c;
 	int lc = 0;
-	while (getchar() != 'n' && (getchar() == '\n')){
+	while ((c=getchar()) != EOF){
+		if  (c == '\n'){
 			++lc;
-			printf("press n to stop !\n");
+			printf("New lines = %d\n", lc);
 		}
-	printf("Total New lines = %d\n", lc);
+	}
 
-
-
-
-
-
+*/
+	printf("%d",'\n');
+	
 
 }
 
