@@ -163,15 +163,29 @@ int main(/*function arguments*/){
 	int c;
 	int lc = 0;
 	while ((c=getchar()) != EOF){
-		if  (c == '\n'){
+		if  (c == ' '){
 			++lc;
-			printf("New lines = %d\n", lc);
+			printf("Number of blanks = %d\n", lc);
 		}
 	}
-
 */
-	printf("%d",'\n');
-	
+
+	printf("%d\n",'\n');
+	printf("\n");
+	// Ex 1.9	
+	// replace many blank space by one space
+	int bc, lc = 0;
+	while((bc = getchar()) != '\n'){
+		if (bc == ' '){
+			if (lc != ' '){
+				putchar(bc);
+			}
+		}
+		else{
+			putchar(bc);
+		}
+		lc = bc;
+	}
 
 }
 
