@@ -187,7 +187,8 @@ int main(/*function arguments*/){
 		lc = bc;
 	}
 	printf("\n");
-	printf("This is change from my kukui server");
+	printf("This is change from my kukui server\n");
+	
 
 }
 
